@@ -1,0 +1,43 @@
+{
+  "name": "justoverclock/flarum-ext-readmore",
+  "description": "Add a Read More link for long post in profile page",
+  "keywords": [
+    "flarum",
+      "profile page",
+      "read-more"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "require": {
+    "flarum/core": "^1.0.0"
+  },
+  "require-dev": {
+    "flarum/testing": "^1.0.0"
+  },
+  "authors": [
+    {
+      "name": "Marco Colia",
+      "email": "info@flarum.it",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Justoverclock\\ReadMore\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "ReadMore",
+      "category": "",
+      "icon": {
+        "name": "fas fa-cut",
+        "backgroundColor": "green",
+        "color": "white"
+      }
+    },
+    "flagrow": {
+      "discuss": ""
+    }
+  }
+}
